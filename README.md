@@ -7,5 +7,5 @@ Our task was to optimize its resource delivery and render time
 
 Pre-optimization PageSpeed scores:
 
-![Page 1]("./screenshots/pre-optimization/page1.png")
-![Page 2]("./screenshots/pre-optimization/page2.png")
+![Page 1](./screenshots/pre-optimization/page1.png)
+![Page 2](./screenshots/pre-optimization/page2.png)

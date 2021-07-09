@@ -57,3 +57,75 @@ header {
 		}
 	}
 }
+
+.hero {
+	display: flex;
+	place-content: center;
+	place-items: center;
+	background: url(../../img/hero.jpg) no-repeat fixed center center;
+	background-size: cover;
+	height: 555px;
+
+	.container {
+		width: 55%;
+		height: 45%;
+		display: grid;
+		gap: 25px;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr;
+		grid-template-areas: 'heading heading' 'subtitle subtitle';
+		text-transform: uppercase;
+
+		.heading {
+			color: #525252;
+			grid-area: heading;
+			font-size: 35px;
+			letter-spacing: -1px;
+			font-weight: bold;
+		}
+
+		.subtitle {
+			grid-area: subtitle;
+			font-weight: 600;
+			color: #6d6c6c;
+		}
+
+		a {
+			height: min-content;
+			display: flex;
+			gap: 20px;
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+			text-decoration: none;
+			font-weight: 600;
+			border: solid 2px darkslategray;
+			padding: 15px;
+			color: darkslategray;
+
+			i {
+				display: inline-block;
+				width: 16px;
+				height: 16px;
+			}
+		}
+
+		.android_icon {
+			background: url(../../img/android_app.png) no-repeat;
+		}
+
+		.iphone_icon {
+			background: url(../../img/iphone_app.png) no-repeat;
+		}
+	}
+}
+
+.featured_on {
+	background-color: #efefef;
+	height: 145px;
+	padding: 20px;
+
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-items: center;
+}

@@ -218,3 +218,33 @@ header {
 		}
 	}
 }
+
+.app_features {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 82px 36px;
+	background: linear-gradient(to top, #248888 0%, #248888 0.27%, #40c27d 99.46%, #40c27d 100%);
+	padding: 10%;
+
+	.details {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 36px;
+
+		h1 {
+			text-transform: uppercase;
+			font-weight: 600;
+			color: white;
+			font-size: 20px;
+			text-align: center;
+		}
+
+		p {
+			text-transform: lowercase;
+			color: white;
+			line-height: 28px;
+			text-align: center;
+		}
+	}
+}
